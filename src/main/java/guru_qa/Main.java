@@ -24,6 +24,10 @@ public class Main {
         System.out.println(a>b);
         System.out.println(c<=a);
         System.out.println(d==b);
+        if (a<b){
+            System.out.println("a<b");
+        }else
+            System.out.println("a>=b");
 
         //3) прочитать про диапазоны типов данных для вещественных / чисел с плавающей точкой
         // (какие максимальные и минимальные значения есть, как их получить) и переполнение
